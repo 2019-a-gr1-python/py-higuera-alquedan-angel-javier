@@ -25,6 +25,6 @@ primero_b = df.iloc[0,:]
 
 primero_c = df.iloc[0:100, 0:-2]
 
-tres primeros = df.head(10)['width'].sort_values(axis=0).head(3)
+tres_primeros = df.head(10)['width'].sort_values(axis=0).head(3)
 
 diez_primeros = df['width'].sorting_values(ascending=False).head(10)
